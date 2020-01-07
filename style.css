@@ -1,0 +1,186 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    background-size: 100%;
+}
+.generalContainer {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 90%;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.header__button-container {
+    display: flex;
+}
+
+.header__button-change-bg, .header__button-change-measure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(149, 147, 150, 0.4);
+    box-shadow: 0 10px 10px rgba(63, 61, 61, 0.22)
+}
+
+.header__button-change-measure{
+    font-weight: 700;
+    font-size: 1.3em;
+}
+.headerSearchContainer {
+    width: 100%;
+}
+
+.header__button-container div {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    height: 23px;
+}
+
+button {
+    height: 29px;
+}
+
+
+/*!!!!!!!!!!!! main */
+main {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+/* mainDataSection */
+
+.mainDataSection {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+.mainDataSection__generalHeader {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    background: rgba(189, 179, 194, 0.4);
+    box-shadow: 0 10px 10px rgba(63, 61, 61, 0.22)
+
+}
+
+.mainDataSection__mainData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background: rgba(189, 179, 194, 0.4);
+    box-shadow: 0 10px 10px rgba(63, 61, 61, 0.22)
+}
+
+.mainData__degreesContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainData__degrees {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.degreesValue {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.mainData__weatherIconContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    font-weight: 600;
+}
+
+.mainData__weatherIconContainer img {
+    height: 3em;
+    width: 2em;
+}
+
+.nextDaysWeatherContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nextDaysWeather {
+    width: 100px;
+    margin: 1em;
+    background: rgba(149, 147, 150, 0.4);
+    box-shadow: 0 10px 10px rgba(63, 61, 61, 0.22);
+
+}
+
+.nextDayWeatherTitle {
+    text-align: center;
+    font-weight: 800;
+}
+
+/* map */
+.mapSection {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#map {
+    display: flex;
+    height: 20em;
+    width: 20em;
+    margin-top: 1em;
+    border: 1px solid rgb(95, 89, 89);
+    background-color: darkgrey;
+    box-shadow: 0 14px 28px rgba(70, 18, 18, 0.25), 0 10px 10px rgba(0,0,0,0.22)
+}
+
+.coordinatesContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1em;
+    background: rgba(149, 147, 150, 0.4);
+    box-shadow: 0 10px 10px rgba(63, 61, 61, 0.22)
+
+}
+
+.coordinates {
+    text-align: center;
+}
+
